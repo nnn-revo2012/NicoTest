@@ -1,9 +1,10 @@
-# NociTest
+# NicoTest
 
-ニコニコに接続テストするツールです。
+OS情報を調べlive.nicovideo.jpに接続テストするツールです。
 
 # 特徴
 
+.NETのツールはWindows10/11未満のOSではlive.nicovideo.jpに接続できなくなったはずなので、それを検証します
 
 # 開発環境
 

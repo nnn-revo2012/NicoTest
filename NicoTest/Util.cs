@@ -72,7 +72,7 @@ namespace NicoTest
                     result = mo["Caption"].ToString();
                     if (mo["CSDVersion"] != null)
                         result += " " + mo["CSDVersion"].ToString();
-                    result += " (" + mo["Version"].ToString() + "}";
+                    result += " (" + mo["Version"].ToString() + ")";
                 }
             }
             catch (Exception e)

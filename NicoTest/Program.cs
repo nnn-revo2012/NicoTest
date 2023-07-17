@@ -17,14 +17,12 @@ namespace NicoTest
             Application.SetCompatibleTextRenderingDefault(false);
             try
             {
-                var osname = "OS: " + Util.CheckOSName();
                 var ostype = Util.CheckOSType();
-                //var tt = ".NET: " + Util.CheckFor45PlusVersion();
                 if (ostype == "XP" || ostype == "Vista")
                 {
                     MessageBox.Show("OSはXPかVistaです");
                 }
-                else if (ostype == "7" || ostype == "8" || ostype == "8,1")
+                else if (ostype == "7" || ostype == "8" || ostype == "8.1")
                 {
                     MessageBox.Show("OSは7か8か8.1です");
                 }
@@ -34,9 +32,8 @@ namespace NicoTest
                 }
                 else
                 {
-                    MessageBox.Show("OSはXP以前かUnknownです");
+                    MessageBox.Show("OSはXPより前かUnknownです");
                 }
-                MessageBox.Show(osname);
             }
             catch (Exception ex)
             {
